@@ -1,0 +1,4 @@
+Component: Ghostscript shim (vendored)
+Upstream:  https://ghostscript.com
+License:   AGPL-3.0-or-later
+Modified:  yes (stripped to a single function)

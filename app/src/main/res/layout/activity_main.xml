@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+    <Button android:id="@+id/btnPdf" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Generate PDF (iText 7, AGPL)" />
+    <Button android:id="@+id/btnKeys" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Generate identity keys (libsignal, AGPL)" />
+    <Button android:id="@+id/btnPages" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Count pages (MuPDF, AGPL)" />
+    <Button android:id="@+id/btnServer" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Call AGPL backend (network use)" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:id="@+id/output" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textIsSelectable="true" />
+    </ScrollView>
+</LinearLayout>

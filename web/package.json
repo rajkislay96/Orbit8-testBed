@@ -1,0 +1,11 @@
+{
+  "name": "orbit8-testbed-web",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Companion web viewer. Declares MIT but depends on AGPL packages (conflict test).",
+  "dependencies": {
+    "mupdf": "^1.0.0",
+    "express": "^4.19.2"
+  }
+}

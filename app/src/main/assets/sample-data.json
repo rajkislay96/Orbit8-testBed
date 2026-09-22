@@ -1,0 +1,9 @@
+{
+  "_license": "CC-BY-SA-4.0",
+  "_attribution": "Sample dataset (c) 2026 Orbit8 Testbed Authors, licensed under Creative Commons Attribution-ShareAlike 4.0 International",
+  "_source": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "items": [
+    { "id": 1, "name": "alpha" },
+    { "id": 2, "name": "beta" }
+  ]
+}
